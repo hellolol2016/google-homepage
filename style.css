@@ -8,7 +8,8 @@
 }
 .logo-searchbar img{
     display:flex;
-    width:20%;
+    width:40%;
+    max-width:300px;
     margin:auto;
     margin-bottom:30px;
 }
@@ -46,4 +47,42 @@ nav a{
 }
 .left{
     flex-grow:2;
+}
+
+.buttons{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+}
+
+.buttons button{
+    margin-top:50px;
+    margin:20px;
+    background-color:#f8f9fa;
+    border: none;
+    padding:10px 15px;
+    font-size:15px;
+    border-radius:5px;
+}
+
+button:hover{
+    box-shadow:0 0 2px #222;
+}
+
+input:hover{
+    box-shadow:0 0 2px #222;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+nav .apps{
+    padding:10px;
+    border-radius:50px;
+    margin:-5px;
+}
+nav .apps:hover{
+    background-color:rgb(237, 237, 237);
+    
 }
