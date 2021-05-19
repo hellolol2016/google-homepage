@@ -1,0 +1,49 @@
+*{
+    font-family:arial,sans-serif;
+}
+.logo-searchbar{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around
+}
+.logo-searchbar img{
+    display:flex;
+    width:20%;
+    margin:auto;
+    margin-bottom:30px;
+}
+.logo-searchbar input{
+    display:flex;
+    width:45%;
+    margin:auto;
+    border-radius:30px;
+    height:40px;
+    border-style:solid;
+}
+
+a{
+    color:#222;
+    text-decoration:none;
+}
+
+*:focus{
+    background:none;
+    outline:none;
+}
+
+nav img{
+    width:30px;
+    border-radius:40px;
+}
+nav{
+    display:flex;   
+    align-items:center; 
+}
+nav a{
+    padding:10px;
+    font-size:14px;
+    
+}
+.left{
+    flex-grow:2;
+}
